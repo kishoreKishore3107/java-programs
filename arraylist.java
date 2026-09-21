@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+public class Main{
+    public static void main(String[] args){
+        ArrayList<String> cars = new ArrayList<String>();
+        cars.add("volvo");
+        cars.add("benz");
+         cars.add("maruthi");
+         cars.add("porche");
+        System.out.println(cars);
+    } 
+}
+
+o/p:
+
+[volvo, benz, maruthi, porche]
