@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class smallest_largest{
+    public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter the number of elements in the array: ");
+	int n = sc.nextInt();
+	int[] arr = new int[n];
+	System.out.print("Enter the elements in the Array: ");
+	for(int i = 0; i < n; i++){
+	    arr[i] = sc.nextInt();
+	}
+	int large = Integer.MIN_VALUE;
+	int small = Integer.MAX_VALUE;
+	for(int i = 0; i < n; i++){
+	    if(arr[i] > large) large = arr[i];
+	    if(arr[i] < small) small = arr[i];
+	}
+	System.out.println("Largest in the array: "+large);
+	System.out.println("Smallest in the array: "+small);
+    }
+}
