@@ -1,0 +1,32 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        var num = new HashSet<String>();
+        num.add("volvo");
+        num.add("benz");
+         num.add("alto");
+         num.add("maruthi"); 
+num.add("kia");
+num.add("maruthi");
+        
+            System.out.println(num.contains("mani"));
+    } 
+}
+
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        var num = new HashSet<String>();
+        num.add("volvo");
+        num.add("benz");
+         num.add("alto");
+         num.add("maruthi"); 
+num.add("kia");
+num.add("maruthi");
+        
+            for (String i : num){
+                System.out.println(i);
+            }
+    } 
